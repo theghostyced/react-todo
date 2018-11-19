@@ -1,3 +1,7 @@
+*::before,*::after,* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -18,4 +22,11 @@ code {
   width: 350px;
   background: gray;
   margin: 50px auto;
+  padding: 10px;
+}
+
+.todo-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 22px;
 }

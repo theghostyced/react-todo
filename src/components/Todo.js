@@ -1,4 +1,6 @@
 import React from 'react';
+import TodoInput from './TodoInput';
+
 
 class Todo extends React.Component{
 
@@ -6,7 +8,7 @@ class Todo extends React.Component{
         return (
         <div>
             <div className='todo'>
-
+              <TodoInput />
             </div>
         </div>
         )
